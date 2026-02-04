@@ -1,0 +1,44 @@
+- 通用安全数据集：针对用户提示词的核心安全检测能力
+  - Prompt Classification
+    - ToxicChat：lmsys/toxic-chat
+    - OpenAIModeration：
+      - mmathys/openai-moderation-api-evaluation 
+      - https://github.com/openai/moderation-api-release
+    - Aegis：nvidia/Aegis-AI-Content-Safety-Dataset-1.0
+    - Aegis2.0：nvidia/Aegis-AI-Content-Safety-Dataset-2.0
+    - SimpleSafetyTests：Bertievidgen/SimpleSafetyTests
+    - Harmbench：https://github.com/centerforaisafety/HarmBench/blob/main/data/behavior_datasets/harmbench_behaviors_text_all.csv
+    - WildGuard：allenai/wildguardmix
+    - S-Eval：IS2Lab/S-Eval
+    - RTP-LX：ToxicityPrompts/RTP-LX
+  - Response Classification
+    - Harmbench：
+      - walledai/HarmBench
+      - https://github.com/centerforaisafety/HarmBench/blob/main/data/behavior_datasets/harmbench_behaviors_text_all.csv
+    - SafeRLHF：PKU-Alignment/PKU-SafeRLHF
+    - Beavertails：PKU-Alignment/BeaverTails
+    - XSTest：
+      - walledai/XSTest
+      - allenai/xstest-response
+    - WildGuard：allenai/wildguardmix
+    - Aegis2.0：nvidia/Aegis-AI-Content-Safety-Dataset-2.0
+    - S-Eval：IS2Lab/S-Eval
+    - RTP-LX：ToxicityPrompts/RTP-LX
+    - BingoGuard：fanyin3639/final_safety_bingo_w_severity_v3_decontamination
+  - Response Refusal
+    - OverRefusalBenchmark（OR-Bench）：bench-llms/or-bench
+    - SorryBench：sorry-bench/sorry-bench-202503
+    - SorryBenchHumanJudgement：sorry-bench/sorry-bench-human-judgment-202503
+  - Reasoning Trace
+    - Think：Qwen/Qwen3GuardTest
+  - Jailbreak
+    - JailbreakBench：JailbreakBench/JBB-Behaviors
+    - WildJailbreak：allenai/wildjailbreak
+    - StrongReject：
+      - walledai/StrongREJECT
+      - https://github.com/alexandrasouly/strongreject/blob/main/strongreject_dataset/strongreject_dataset.csv
+  - Multilingual
+    - PolyGuard：
+      - ToxicityPrompts/PolyGuardPrompts
+      - ToxicityPrompts/PolyGuardMix
+    - RTP-LX：ToxicityPrompts/RTP-LX
